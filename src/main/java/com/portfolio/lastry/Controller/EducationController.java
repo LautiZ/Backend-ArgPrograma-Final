@@ -67,7 +67,7 @@ public class EducationController {
         if (!impEducationService.existsById(id)) {
             return new ResponseEntity(new Mensaje("No existe educacion con ese ID❗"), HttpStatus.NOT_FOUND);
         }
-        if (impEducationService.existsByTitleEd(dtoEdu.getTitleEd()) && impEducationService.getByTitleEdu(dtoEdu.getTitleEd()).get().getId() != id) {
+        if (impEducationService.existsByTitleEd(dtoEdu.getTitleEd()) && impEducationService.getByTitleEdu(dtoEdu.getTitleEd()).get().getedId() != id) {
             return new ResponseEntity(new Mensaje("Ese titulo ya existe❗"), HttpStatus.BAD_REQUEST);
         }
         if (StringUtils.isBlank(dtoEdu.getTitleEd())) {

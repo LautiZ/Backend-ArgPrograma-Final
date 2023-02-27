@@ -1,38 +1,47 @@
 package com.portfolio.lastry.Service;
 
-import com.portfolio.lastry.Entity.Persona;
-import com.portfolio.lastry.Interface.IPersonaService;
 import com.portfolio.lastry.Repository.IPersonaRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.portfolio.lastry.Entity.Persona;
 
+import javax.transaction.Transactional;
 import java.util.List;
+import java.util.Optional;
 
 @Service
-public class ImpPersonaService implements IPersonaService {
+@Transactional
+public class ImpPersonaService {
 
     @Autowired
     IPersonaRep iPersonaRep;
 
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> personas = iPersonaRep.findAll();
-        return personas;
+    public List<Persona> list() {
+        return iPersonaRep.findAll();
     }
 
-    @Override
-    public void savePersona(Persona persona) {
+    public Optional<Persona> getOne(int id) {
+        return iPersonaRep.findById(id);
+    }
+
+    public Optional<Persona> getByNombre(String nombre) {
+        return iPersonaRep.findByNombre(nombre);
+    }
+
+    public void save(Persona persona) {
         iPersonaRep.save(persona);
     }
 
-    @Override
-    public void deletePersona(Long id) {
+    public void delete(int id) {
         iPersonaRep.deleteById(id);
     }
 
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = iPersonaRep.findById(id).orElse(null);
-        return persona;
+    public boolean existsById(int id) {
+        return iPersonaRep.existsById(id);
     }
+
+    public boolean existsByNombre(String nombre) {
+        return iPersonaRep.existsByNombre(nombre);
+    }
+
 }

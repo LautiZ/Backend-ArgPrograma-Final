@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://front-argprograma-finalproject.web.app/")
+@CrossOrigin(origins = {"https://front-argprograma-finalproject.web.app/", "http://localhost:4200/"})
 @RequestMapping("/hys")
 public class HySController {
     @Autowired

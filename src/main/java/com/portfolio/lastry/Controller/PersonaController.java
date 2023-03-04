@@ -13,7 +13,7 @@ import com.portfolio.lastry.Entity.Persona;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://front-argprograma-finalproject.web.app/")
+@CrossOrigin(origins = {"https://front-argprograma-finalproject.web.app/", "http://localhost:4200/"})
 @RequestMapping("/personas")
 public class PersonaController {
     @Autowired

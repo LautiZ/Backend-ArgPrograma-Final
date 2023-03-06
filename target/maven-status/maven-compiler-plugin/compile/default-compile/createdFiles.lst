@@ -1,9 +1,12 @@
 com\portfolio\lastry\Entity\Education.class
 com\portfolio\lastry\Security\jwt\JwtProvider.class
+com\portfolio\lastry\Dto\dtoProjects.class
 com\portfolio\lastry\Security\Entity\Rol.class
+com\portfolio\lastry\Entity\Projects.class
 com\portfolio\lastry\Security\Service\UsuarioService.class
 com\portfolio\lastry\Controller\ExperienciaController.class
 com\portfolio\lastry\Dto\dtoEducation.class
+com\portfolio\lastry\Repository\IProjectsRep.class
 com\portfolio\lastry\Service\ImpExperienciaService.class
 com\portfolio\lastry\Controller\EducationController.class
 com\portfolio\lastry\Repository\IExperienciaRep.class
@@ -11,6 +14,7 @@ com\portfolio\lastry\Security\Entity\Usuario.class
 com\portfolio\lastry\Repository\IHySRep.class
 com\portfolio\lastry\Entity\Persona.class
 com\portfolio\lastry\Repository\IPersonaRep.class
+com\portfolio\lastry\Controller\ProjectsController.class
 com\portfolio\lastry\Entity\Experiencia.class
 com\portfolio\lastry\Security\Dto\LoginUsuario.class
 com\portfolio\lastry\Security\Entity\MainUser.class
@@ -22,6 +26,7 @@ com\portfolio\lastry\Security\Service\ImpUserDetailsService.class
 com\portfolio\lastry\Service\ImpEducationService.class
 com\portfolio\lastry\Security\Dto\JwtDTO.class
 com\portfolio\lastry\Service\ImpHySService.class
+com\portfolio\lastry\Service\ImpProjectsService.class
 com\portfolio\lastry\Security\Repository\IRolRepository.class
 com\portfolio\lastry\Entity\HyS.class
 com\portfolio\lastry\Security\Enums\RolNombre.class

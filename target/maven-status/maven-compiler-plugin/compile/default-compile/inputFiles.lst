@@ -1,5 +1,6 @@
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Service\RolService.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Controller\HySController.java
+D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Entity\Projects.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Dto\LoginUsuario.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Controller\AuthController.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\jwt\JwtTokenFilter.java
@@ -12,15 +13,19 @@ D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfoli
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Repository\IExperienciaRep.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Controller\ExperienciaController.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\LastryApplication.java
+D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Service\ImpProjectsService.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Entity\Experiencia.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Enums\RolNombre.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Repository\IHySRep.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\jwt\JwtEntryPoint.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Entity\Usuario.java
+D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Dto\dtoProjects.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\Dto\JwtDTO.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Security\jwt\JwtProvider.java
+D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Repository\IProjectsRep.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Service\ImpHySService.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Controller\PersonaController.java
+D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Controller\ProjectsController.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Controller\EducationController.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Repository\IPersonaRep.java
 D:\Proyects\ArgPrograma\ULTIMO-INTENTO\Backend\lastry\src\main\java\com\portfolio\lastry\Service\ImpPersonaService.java
